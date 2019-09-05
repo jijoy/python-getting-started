@@ -8,6 +8,9 @@ def index(request):
     # return HttpResponse('Hello from Python!')
     return render(request, "index.html")
 
+def hello(request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "hello.html")
 
 def db(request):
 
